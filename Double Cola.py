@@ -14,5 +14,3 @@ def who_is_next(names, r):
     else:
         print(r,sum,k,constant)
         return names[k//constant]
-    
-who_is_next(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 52)
